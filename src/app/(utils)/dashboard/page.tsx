@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle } from "@/app/components/ui/card";
 import { KeyRound } from "lucide-react";
 import Link from "next/link";
 
-export function Dashboard() {
+export default function Page() {
   return (
     <>
       <div className="flex items-center">
@@ -26,5 +26,3 @@ export function Dashboard() {
     </>
   );
 }
-
-export default Dashboard;
